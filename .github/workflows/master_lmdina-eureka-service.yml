@@ -48,4 +48,4 @@ jobs:
             docker pull mrabet2002/lmdina-eureka-service:latest
             docker stop lmdina-eureka-service || true
             docker rm lmdina-eureka-service || true
-            docker run -d --name lmdina-eureka-service -p 8080:8080 mrabet2002/lmdina-eureka-service:latest
+            docker run -d --name lmdina-eureka-service -p 8761:8080 mrabet2002/lmdina-eureka-service:latest
